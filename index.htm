@@ -1,0 +1,56 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinatura Digital</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+    <body>
+        
+        <!-- Introdução ao HTML -->
+        <div>
+            <h1 class="assinatura"> Assinatura Digital </h1>
+
+            <div class="texto">
+                <p> Utilize o mouse para assinar o seu nome do campo abaixo, depois clique em salvar a assinatura para baixar a imagem no seu dispositivo.</p>
+            </div>
+
+            <div class="texto">
+                <p> Depois de salvar a assinatura, de upload no formulário para continuar </p>
+
+        </div>
+        
+        <!-- Cria o Canvas para que a pessoa possa desenhar -->
+        <div>
+            <canvas id="canvas" width="1000" height="500"></canvas>
+        </div>
+        
+        <br>
+
+        <!-- Botões para salvar e limpar a assinatura -->
+        <div class="container">
+            <button id="saveButton">Salvar Assinatura</button>
+
+        <div class="container">
+            <button id="clearButton">Limpar Assinatura</button>
+        </div>
+
+        <br>
+    
+        <!-- Botão para redirecionar para o formulário, no caso o link -->
+        <!-- https://docs.google.com/forms/d/19t67NTkS7cCVxippZEDLEmgfRhvvVnEwWSb6UWxGWHc/edit?ts=65315e56 -->
+        <div>
+            <button id="formButton">Formulário</button>
+        </div>
+
+
+        <!-- JS -->
+        <script src="script.js"></script>
+
+    </body>
+</html>
